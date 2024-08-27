@@ -2,12 +2,9 @@
   "name": "one",
   "version": "1.0.0",
   "description": "",
-  "main": "server.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "node index.js",
-    "start": "nodemon index.js",
-    "socket": "nodemon socket.js",
+    "socket": "nodemon ./socket.js",
     "couponShare" : "nodemon couponShare/routes/index.js"
   },
   "author": "",
